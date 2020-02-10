@@ -1,0 +1,3 @@
+[submodule "web/wp-content/themes/thedetoxjuice"]
+	path = web/wp-content/themes/thedetoxjuice
+	url = git@github.com:commnerd/TheDetoxJuiceTheme.git
