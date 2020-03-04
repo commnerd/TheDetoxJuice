@@ -31,6 +31,6 @@ services:
         volumes:
             - ./web/wp-content/themes/thedetoxjuice:/project
         working_dir: /project
-        command: ["bash", "-c", "yarn",  "&&",  "yarn",  "watch-css"]
+        command: bash -c 'yarn && yarn watch-css'
 volumes:
     db_data: {}
